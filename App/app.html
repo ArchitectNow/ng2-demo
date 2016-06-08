@@ -1,7 +1,16 @@
-﻿Search By: <input type="text" #searchInput /> 
-<br/>
-<input type="submit" (click)="searchPeople(searchInput.value)"/>
-<br/>
-<ul>
-    <li *ngFor="let person of data">{{ person.NameFirst }}</li>
-</ul>
+﻿<div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+            <form>
+                <div class="form-group">
+                    <label for="searchBy">Search By:</label>
+                    <input #searchInput id="searchBy" type="text" class="form-control">
+                </div>
+                <button (click)="searchPeople(searchInput.value)" class="btn btn-default">Submit</button>
+            </form>
+            <ul>
+                <li *ngFor="let person of data">{{ person.NameFirst }}</li>
+            </ul>
+        </div>
+    </div>
+</div>

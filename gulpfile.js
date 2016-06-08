@@ -33,9 +33,9 @@ gulp.task("scriptsNStyles", function() {
 
 //ts - task to transpile TypeScript files to JavaScript using Gulp-TypeScript 
 var tsProject = ts.createProject('tsconfig.json');
-gulp.task('ts', function(done) {    
+gulp.task('ts', function() {    
     var tsResult = gulp.src([
-            "scripts/*.ts"
+            "scripts/**/*.ts"
         ])
         .pipe(ts(tsProject), undefined, ts.reporter.fullReporter());
     return tsResult.js.pipe(gulp.dest('scripts/appScripts'));

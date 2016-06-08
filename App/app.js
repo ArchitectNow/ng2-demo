@@ -33,7 +33,7 @@ var AppComponent = (function () {
                 PeopleService_1.PeopleService
             ],
             templateUrl: '/app/app.html',
-            styleUrls: ['/app/app.css']
+            styleUrls: ['./app/app.css']
         }), 
         __metadata('design:paramtypes', [PeopleService_1.PeopleService])
     ], AppComponent);

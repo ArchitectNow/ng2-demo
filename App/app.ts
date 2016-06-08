@@ -17,7 +17,7 @@ import {Person} from './Models/Person';
         PeopleService
     ],
     templateUrl: '/app/app.html',
-    styleUrls: ['/app/app.css']
+    styleUrls: ['./app/app.css']
 })
 export class AppComponent {
 
