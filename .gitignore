@@ -1,7 +1,9 @@
 # Created by .ignore support plugin (hsz.mobi)
-node_modules
-App/**/*.js
+ArchitectNow.ng2.Base/node_modules
+ArchitectNow.ng2.Base/App/**/*.js
+ArchitectNow.ng2.Base/App/**/*.css
+ArchitectNow.ng2.Base/App/**/*.js.map
 .vs
-bin
-obj
-scripts/libs
+ArchitectNow.ng2.Base/bin
+ArchitectNow.ng2.Base/obj
+ArchitectNow.ng2.Base/scripts/libs

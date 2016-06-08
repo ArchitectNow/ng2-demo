@@ -1,0 +1,16 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-xs-offset-3">
+            <form>
+                <div class="form-group">
+                    <label for="searchBy">Search By:</label>
+                    <input #searchInput id="searchBy" type="text" class="form-control">
+                </div>
+                <button (click)="searchPeople(searchInput.value)" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav nav-pills nav-stacked">
+                <li *ngFor="let person of data"><a href="#">{{ person.NameFirst }}</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
