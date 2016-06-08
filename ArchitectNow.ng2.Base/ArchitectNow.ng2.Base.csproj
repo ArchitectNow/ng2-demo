@@ -148,7 +148,6 @@
       <DependentUpon>app.css</DependentUpon>
     </Content>
     <Content Include="Global.asax" />
-    <Content Include="gulpfile.js" />
     <Content Include="index.html" />
     <Content Include="systemjs.config.js" />
     <Content Include="Web.config" />
@@ -178,6 +177,7 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
+    <Content Include="typings.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

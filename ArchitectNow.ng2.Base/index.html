@@ -3,11 +3,14 @@
 <head>
     <title>ArchitectNow - ng2-Demo</title>
     <meta charset="utf-8" />
-    <link href="scripts/libs/css/bootstrap.css" rel="stylesheet" />
-    <script src="scripts/libs/es6-shim/es6-shim.min.js"></script>
-    <script src="scripts/libs/zone.js/dist/zone.js"></script>
-    <script src="scripts/libs/reflect-metadata/Reflect.js"></script>
-    <script src="scripts/libs/systemjs/dist/system.src.js"></script>
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
 
       <!-- 2. Configure SystemJS -->
     <script src="systemjs.config.js"></script>
