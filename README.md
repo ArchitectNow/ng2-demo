@@ -4,6 +4,7 @@ The following resources have been compiled by the ArchitectNow team during our a
 
  * [https://angular.io/](https://angular.io/)
  * [https://www.ng-book.com/2/](https://www.ng-book.com/2/)
+ * [http://angular-2-training-book.rangle.io/](http://angular-2-training-book.rangle.io/)
  * [https://www.pluralsight.com/courses/angular-2-first-look](https://www.pluralsight.com/courses/angular-2-first-look)
  * [https://www.pluralsight.com/courses/angular-2-getting-started](https://www.pluralsight.com/courses/angular-2-getting-started)
  * [https://angular.io/styleguide](https://angular.io/styleguide)
@@ -19,6 +20,7 @@ The following resources have been compiled by the ArchitectNow team during our a
  * [https://learnxinyminutes.com/docs/typescript/](https://learnxinyminutes.com/docs/typescript/)
  * [http://definitelytyped.org/directory/learn.html](http://definitelytyped.org/directory/learn.html)
  * [http://weblogs.asp.net/dwahlin/getting-started-with-typescript-classes-static-types-and-interfaces](http://weblogs.asp.net/dwahlin/getting-started-with-typescript-classes-static-types-and-interfaces)
+ * [https://frhagn.github.io/Typewriter/index.html](https://frhagn.github.io/Typewriter/index.html)
 
 **Visual Studio and ASP.NET**
 
